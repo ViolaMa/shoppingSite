@@ -11,6 +11,9 @@ import { LoginPageComponent } from './user/user-login/login-page/login-page.comp
 import { LoginModuleComponent } from './user/user-login/login-module/login-module.component';
 import { GoodsListComponent } from './goods/goods-list/goods-list.component';
 import { GoodsDetailComponent } from './goods/goods-detail/goods-detail.component';
+import { SearchComplexComponent } from './home/search/search-complex/search-complex.component';
+import { SearchSimpleComponent } from './home/search/search-simple/search-simple.component';
+import { HomeBodyComponent } from './home/home-body/home-body.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { GoodsDetailComponent } from './goods/goods-detail/goods-detail.componen
     LoginPageComponent,
     LoginModuleComponent,
     GoodsListComponent,
-    GoodsDetailComponent
+    GoodsDetailComponent,
+    SearchComplexComponent,
+    SearchSimpleComponent,
+    HomeBodyComponent
   ],
   imports: [
     BrowserModule,
