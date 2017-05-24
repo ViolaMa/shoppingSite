@@ -1,3 +1,7 @@
-遇到的问题
 /*2017-5-24*/
-1. 图片显示的问题：之前的angular.js中的图片地址用ng-src来关联
+1. 图片文件路劲问题：
+html文件的img标签直接从src路劲开始引用 src/images/logo.jpg，
+    e.g: <code><img src="src/images/logo.jpg" alt=""/></code>
+        
+
+2. 

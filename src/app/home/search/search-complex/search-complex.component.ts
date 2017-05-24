@@ -5,13 +5,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './search-complex.component.html',
   styleUrls: ['./search-complex.component.css']
 })
-export class SearchComplexComponent implements OnInit {
 
-  public logoUrl = "src/images/logo.jpg";
+export class SearchComplexComponent implements OnInit {
 
   public keyWords: '';
 
-  constructor() { }
+  constructor() {
+    
+  }
 
   ngOnInit() {
   }
